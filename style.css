@@ -1,0 +1,60 @@
+
+nav{
+    background-color:rgb(33, 73, 134);
+    }
+img.slide{
+    height: 550px;
+}
+
+i{
+    font-size: .8rem;
+}
+#icon{
+    font-size: .9rem;
+    color:rgb(243, 243, 53);
+}
+#container1{
+    width: 100%;
+    height: 400px;
+    /* background-image: linear-gradient(rgba(19, 81, 88, 0.8),rgba(29, 243, 229, 0.8)); */
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+}
+#login{
+    background-image: linear-gradient(rgb(8, 4, 79),rgb(4, 8, 60),rgb(2, 2, 89),url(/image/travellogin.jpg));
+    width: auto;
+    height: 400px;
+}
+.inupt-group ,#email-error ,#password-error{
+    position: relative;
+    bottom: 35px;
+    left: 60%;
+    color:red;
+    font-size: 14px;
+}
+#submit-error{
+    position: relative;
+    left: 10%;
+    color:red;
+    font-size: 14px;
+}
+.carousel{
+    font-size: 30px;
+}
+/* Media query for screens smaller than 768px (typically mobile devices) */
+@media (max-width: 768px) {
+    .carousel {
+      font-size: 14px; 
+      /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Media query for screens larger than 768px (typically tablets and desktops) */
+  @media (min-width: 769px) {
+    .carousel{
+      font-size: 18px; /* Adjust font size for larger screens */
+    }
+  }
+  
+ 
